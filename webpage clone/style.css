@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    flex: 1;
+  }
+  
+  nav {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  header a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+
+  header a:hover {
+    color: #ff4081;
+  }
+  .search-button {
+    padding: 8px 15px;
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .search-button:hover {
+    background-color: #e63971;
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #fdf1f4;
+    background-image: url("background-image.png");
+  }
+
+  .text-content {
+    max-width: 50%;
+  }
+
+  .text-content h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+
+  .text-content p {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0 20px;
+  }
+
+  .buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  .apply-online {
+    background-color: #ff4081;
+    color: #fff;
+  }
+
+  .loan-calculator {
+    background-color: #fff;
+    color: #ff4081;
+    border: 2px solid #ff4081;
+  }
+
+  .image-content {
+    position: relative;
+  }
+
+  .image-content img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+
+  .loan-buttons {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .car-loan {
+    top: 20px;
+    left: 20px;
+  }
+
+  .home-loan {
+    top: 100px;
+    right:20px;
+  }
+
+  .footer {
+    width: 30vw;
+    border: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #fff;
+  }
+
+  .footer a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 1.2rem;
+  }
+
+  .footer a:hover {
+    color: #ff4081;
+  }
